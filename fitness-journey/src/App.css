@@ -1,3 +1,35 @@
 * {
-  background-color: pink;
+  background-color: rgba(248,243,237,255);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+
+}
+
+.hero {
+  display: inline-block;
+}
+
+.hero img {
+  width: 100%;
+  opacity: 90%;
+  margin: 0;
+}
+
+.meetKatie, .meetKatie h2, .meetKatie p{
+  background-color: rgba(163,130,108,255);
+  color: rgba(251,251,250,255);
+  padding: 4px;
+  margin: 0;
 }
