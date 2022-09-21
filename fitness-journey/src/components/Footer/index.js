@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <Footer>
+    <footer>
       <h1>Katie Bevington </h1>
-    </Footer>
+    </footer>
   );
 }
 
