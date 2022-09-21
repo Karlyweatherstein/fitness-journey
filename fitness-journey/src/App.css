@@ -1,25 +1,33 @@
 * {
   background-color: rgba(248,243,237,255);
-  font-family: 'Cormorant', serif;
+  font-family: 'Noto Serif SC', serif;
+  margin: 0;
 }
 
+
+/* Nav */
 .nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 40px 0;
 }
 
 nav h1 a{
   color: rgba(163,130,108,255);
   text-decoration: none;
+  font-size: 3.5vw;
+  margin: 12px;
 }
 
 ul {
   list-style-type: none;
   display: flex;
+  margin-right: 2vw;
 }
 
 li {
-  margin-right: 20px;
+  margin-right: 2vw;
 }
 
 nav ul li a{
@@ -32,15 +40,18 @@ nav ul li a:hover{
   color: rgba(163,130,108,255);
 }
 
+
+/* Hero */
 .hero {
   display: inline-block;
   width: 100%;
-  margin: 0;
+  background-color: rgba(163,130,108,255);
+
 }
 
 .hero img {
   width: 100%;
-  opacity: 90%;
+  opacity: 80%;
   margin: 0;
 }
 
@@ -48,6 +59,36 @@ nav ul li a:hover{
   background-color: rgba(163,130,108,255);
   color: rgba(251,251,250,255);
   padding: 4px;
-  margin: 0;
+  text-align: center;
 }
 
+.meetKatie h2 {
+  margin: 10px;
+}
+
+.meetKatie p {
+  margin: 15px;
+}
+
+
+/* Footer */
+
+footer {
+  margin: 10px;
+  font-size: 8px;
+  text-align: center;
+}
+
+/* MEDIA QUERY FOR smaller computers */
+@media screen and (max-width: 1020px) {
+ 
+
+  
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  
+
+}

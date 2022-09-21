@@ -8,7 +8,7 @@ import WeightLoss from "./components/WeightLoss";
 import WorkWithMe from "./components/WorkWithMe";
 import Contact from "./components/Contact";
 
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           <Route path="/work-with-me" element={<WorkWithMe />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );
